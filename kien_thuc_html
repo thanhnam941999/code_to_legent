@@ -1,0 +1,10 @@
+// 1.Các thẻ html hay dùng
+ 
+//html:
+<button id="myBtn">Chức năng</button>
+//css:
+//js:
+var btn = document.getElementById("myBtn");
+btn.onclick = function() {
+  modal.style.display = "block";
+}
