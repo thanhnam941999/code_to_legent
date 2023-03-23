@@ -2,4 +2,4 @@
 This is the book where i can write my knowledge about code 
 
 
-Kiến thức trong source này mình sẽ dùng php  và sẽ comment nếu s
+Kiến thức trong source này mình sẽ dùng php  và sẽ comment nếu sử dụng ngôn ngư khác
