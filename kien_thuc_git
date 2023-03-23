@@ -1,0 +1,11 @@
+git branch      : kiếm tra các nhánh mà mình đã và đang tác động đến 
+git branch -a   : kiểm tra tất cả các nhánh đang có trên local
+git branch "tên branch muốn tạo" : tạo ra branch mới ở kho local
+git checkout nhánh_muốn_chuyển_đến : di chuyển đến 1 nhánh bất kỳ đang có
+git checkout -b tên_nhánh_mới : tạo ra 1 nhánh mới và di chuyển đến nhánh đó
+git status      : kiểm tra trạng thái thay đổi ở nhánh đang làm việc
+git add         : đồng ý thay đổi của code cho nhánh đang làm việc (cho hàng vào túi)
+git commit -m "mesage" :  đăng ký / cam kết thay đổi ở nhánh hiện tại (gắn nhãn và đóng gói túi)
+git push origin tên_nhánh_muốn_push : đấy code đã commit lên remote
+git pull origin master: pull nhánh master ở repo remote về
+git pull origin nhánh_muốn_pull : pull nhánh nào đó ở remote về
