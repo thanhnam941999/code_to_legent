@@ -10,8 +10,15 @@ var : khai báo biến có hiệu lực trong 1 hàm to ( tương tự 1 căn nh
                                                 đâu thì chủ nhà vẫn biết bạn)
 let : khai báo có hiệu lực trong 1 block vd: for, foreach, if-else, ... ( tương tự như trong căn trọ đó bạn khai báo let có ny của bạn sang chơi, thì
                                                                          chỉ có bạn biết sự có mặt của ny bạn, còn chủ nhà trọ sẽ không biết.)
+const : khai báo này có tác dụng trong cả file. nếu đã khai báo thì không thể thay đổi giá trị nếu giá trị đó là primitive (nguyên thủy). còn nếu là mảng
+thì vẫn có thể thay đổi giá trị của phần tử của mảng đó ( không thay đổi được phần tử) (tương tự khai báo hằng là căn nhà gồm nhiều phòng, không thể thay
+                                                                                        đổi tên phòng nhưng có thể thay đổi nguời ở trong phòng ý)
 => người ta nghĩ ra biến let để bổ sung cho việc khai báo vì khi code còn nhỏ thì ko ảnh hưởng khi ta khai báo bằng var, nhưng khi code lớn hơn hàng trăm
 dòng, khi này ta sẽ không kiểm soát được biến đó đã được gọi chưa,dẫn đến cần 1 biến chỉ sử dụng trong các block.
+
+// đọc phần tử trong file html nơi mà file js hiện tại được register:
+document.getElementById("id_name")
+document.getElementsByClassName("class_name");
 
 // debug trong js:
 1. console.log()
