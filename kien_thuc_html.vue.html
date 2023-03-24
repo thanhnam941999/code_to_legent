@@ -1,0 +1,18 @@
+// 1.Các thẻ html hay dùng
+ 
+//html:
+<button id="myBtn">Chức năng</button>
+//js:
+var btn = document.getElementById("myBtn");
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+//Hiện tại học được:
+1. Có 2 cách bắt sự kiện ở html: 
+ - Bắt theo id và xử lý trong js: $('#ten_id').click(function(event) {}
+ - Bắt bằng cách gọi hàm từ html rồi vào js xử lý : v-on:click="showHide('tham số')" -> showHide: function (tham số gì đó) {}
+2. Khi một tài liệu HTML được tải vào trình duyệt web, nó sẽ trở thành một đối tượng tài liệu (trong code sẽ đọc được là biến document) để có thể đọc 
+được bằng các hàm ở js
+vd: let url = window.document.URL
+document.getElementById("demo").innerHTML = url;
